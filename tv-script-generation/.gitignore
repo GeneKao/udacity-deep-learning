@@ -1,0 +1,71 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @GeneKao
+Sign out
+214
+3,888 1,361 jupyter/notebook
+ Code  Issues 858  Pull requests 30  Projects 9  Insights
+notebook/.gitignore
+e7f69cc  on Oct 31, 2017
+@takluyver takluyver Work on loading UI translations (#2969)
+@minrk @jdfreder @takluyver @willingc @fperez @ellisonbg @Carreau @blink1073 @rgbkrk @mattvonrocketstein @msabramo @JCEmmons @bfroehle @cowlicks @jianzi123
+
+41 lines (37 sloc)  559 Bytes
+MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/i18n/*/LC_MESSAGES/*.mo
+notebook/i18n/*/LC_MESSAGES/nbjs.json
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.coverage
+src
+
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
+
+/.project
+/.pydevproject
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
